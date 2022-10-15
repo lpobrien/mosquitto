@@ -1,0 +1,117 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/alias_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/alias_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/handle_ping.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/handle_ping.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/handle_pubackcomp.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/handle_pubackcomp.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/handle_pubrec.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/handle_pubrec.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/handle_pubrel.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/handle_pubrel.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/handle_suback.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/handle_suback.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/handle_unsuback.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/handle_unsuback.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/memory_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/memory_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/misc_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/misc_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/net_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/net_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/net_mosq_ocsp.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/net_mosq_ocsp.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/packet_datatypes.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/packet_datatypes.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/packet_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/packet_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/property_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/property_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/send_connect.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/send_connect.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/send_disconnect.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/send_disconnect.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/send_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/send_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/send_publish.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/send_publish.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/send_subscribe.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/send_subscribe.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/send_unsubscribe.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/send_unsubscribe.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/strings_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/strings_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/time_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/time_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/tls_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/tls_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/utf8_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/utf8_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/util_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/util_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/util_topic.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/util_topic.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/lib/will_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/__/lib/will_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/bridge.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/bridge.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/bridge_topic.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/bridge_topic.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/conf.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/conf.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/conf_includedir.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/conf_includedir.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/context.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/context.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/control.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/control.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/database.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/database.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_auth.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_auth.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_connack.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_connack.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_connect.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_connect.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_disconnect.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_disconnect.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_publish.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_publish.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_subscribe.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_subscribe.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/handle_unsubscribe.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/handle_unsubscribe.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/keepalive.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/keepalive.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/logging.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/logging.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/loop.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/loop.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/memory_public.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/memory_public.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/mosquitto.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/mosquitto.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/mux.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/mux.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/mux_epoll.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/mux_epoll.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/mux_poll.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/mux_poll.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/net.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/net.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/password_mosq.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/password_mosq.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/persist_read.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/persist_read.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/persist_read_v234.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/persist_read_v234.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/persist_read_v5.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/persist_read_v5.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/persist_write.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/persist_write.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/persist_write_v5.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/persist_write_v5.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/plugin.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/plugin.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/plugin_public.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/plugin_public.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/property_broker.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/property_broker.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/read_handle.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/read_handle.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/retain.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/retain.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/security.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/security.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/security_default.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/security_default.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/send_auth.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/send_auth.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/send_connack.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/send_connack.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/send_suback.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/send_suback.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/send_unsuback.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/send_unsuback.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/session_expiry.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/session_expiry.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/signals.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/signals.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/subs.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/subs.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/sys_tree.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/sys_tree.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/topic_tok.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/topic_tok.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/websockets.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/websockets.c.o"
+  "/mnt/c/Users/Lobri/CSC591/mosquitto/src/will_delay.c" "/mnt/c/Users/Lobri/CSC591/mosquitto/build/src/CMakeFiles/mosquitto.dir/will_delay.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "CMAKE"
+  "VERSION=\"2.0.15\""
+  "WITH_BRIDGE"
+  "WITH_BROKER"
+  "WITH_CONTROL"
+  "WITH_EC"
+  "WITH_EPOLL"
+  "WITH_MEMORY_TRACKING"
+  "WITH_PERSISTENCE"
+  "WITH_SOCKS"
+  "WITH_SYS_TREE"
+  "WITH_THREADING"
+  "WITH_TLS"
+  "WITH_TLS_PSK"
+  "WITH_UNIX_SOCKETS"
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../"
+  "../src"
+  "../include"
+  "../lib"
+  "../deps"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
