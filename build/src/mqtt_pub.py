@@ -1,34 +1,14 @@
-import paho.mqtt.client as mqtt
+import paho.mqtt.publish as publish
 import random
 import time
 
 broker = 'localhost'
 port = 1883
 topic = "img"
-client_id = f'python-mqtt-{ random.randint( 0, 1000 ) }'
-# username = 'emqx'
-# password = 'public'
 
-# The callback for when the client receives a CONNACK response from the server.
-def on_connect( client, userdata, flags, rc ):
-  print( "Connected with result code " + str( rc ) )
+f=open("../imgs/test-img.png", "rb") #3.7kiB in same folder
+fileContent = f.read()
+byteArr = bytearray(fileContent)
 
-  # Subscribing in on_connect() means that if we lose the connection and
-  # reconnect then subscriptions will be renewed.
-  client.subscribe( "img" )
 
-# The callback for when a PUBLISH message is received from the server.
-def on_message( client, userdata, msg ):
-  print( 'Topic: ' + msg.topic + ' | Payload: ' + str( msg.payload ) )
-
-client = mqtt.Client()
-client.on_connect = on_connect
-client.on_message = on_message
-
-client.connect( "localhost", 1883, 60 )
-
-# Blocking call that processes network traffic, dispatches callbacks and
-# handles reconnecting.
-# Other loop*() functions are available that give a threaded interface and a
-# manual interface.
-client.loop_forever()
+publish.single(topic, byteArr, hostname=broker)
